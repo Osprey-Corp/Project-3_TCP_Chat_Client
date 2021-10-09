@@ -1,3 +1,9 @@
+# Multi-threading is necessary to run multiple clients concurrently with one server.
+# This is so the server can communicate with both clients simultaneously without having
+# to wait for other processes to finish. This enables faster communication between the 
+# client and server. The threads generated are independent of each other so they can
+# complete their designated task without interfering with each other. 
+
 from _thread import start_new_thread
 import threading, socket, os
 
