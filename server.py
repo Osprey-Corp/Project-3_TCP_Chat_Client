@@ -1,3 +1,5 @@
+# Team Members: Franco Belman, Marilyn Kathka, Haylee Bell, David Baker
+
 # Multi-threading is necessary to run multiple clients concurrently with one server.
 # This is so the server can communicate with both clients simultaneously without having
 # to wait for other processes to finish. This enables faster communication between the 
