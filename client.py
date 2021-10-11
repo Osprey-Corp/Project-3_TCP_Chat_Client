@@ -1,3 +1,5 @@
+# Team Members: Franco Belman, Marilyn Kathka, Haylee Bell, David Baker
+
 from os import system, name
 import socket
 
